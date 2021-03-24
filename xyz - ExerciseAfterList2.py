@@ -12,17 +12,12 @@ def separated():
             ['0' , '0' , '0' , '0' ,',' ,','],
             [',' , '0' , '0' , ',' ,',' ,','],
             [',' , ',' , ',' , ',' ,',' ,',']]
-   
-    n = 0
-    i = 0
+    
     for i in range(0,6):
-        print("\n")
         for n in range(0,9):
             print(grid[n][i],end='' )
             n = n + 1
+        print()
         i = i + 1
        
-    
-
-            
 separated()
